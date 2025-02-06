@@ -3297,6 +3297,7 @@ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
         });
       });
     </script>
+    <script>navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {  console.log('Excellent, registered with scope: ', registration.scope);});</script>
   <script>
     if ( 'serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js');}
